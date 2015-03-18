@@ -1,20 +1,51 @@
+/* Dev CSS only - REMOVE BEFORE SUBMISSION */
 .mockup-overlay {
 	top: 0;
 	position: absolute;
 	z-index: -1;
 	opacity: 0.4;
 }
+/* End of Dev CSS block */
 
+/* Global CSS */
 * {
 	font-family: 'Verdana', sans-serif;
 	color : #666666;
 }
 
-h1 {
+/* Header Elements */
+
+h1 {  
 	font-size: 48px;
 	text-align: center;
-}
+} /* Style against h1 or is it better to give it a class and style there ? */
+
 
 .header-row {
 	padding-top: 25px;
+	/*padding-bottom: 20px;*/
+}
+
+/* Body Elements */
+
+h2 {
+	color: #f07c17;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.logo-image {
+	height: 375px;
+	width: 375px;
+}
+
+.image-row {
+	margin-top: 20px;
+}
+
+.box-row {
+	margin-top: 30px;
+	margin-left: 0px;
+	margin-right: 0px;
+	border: 1px solid #ccc;
 }
