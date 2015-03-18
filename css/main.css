@@ -10,3 +10,11 @@
 	color : #666666;
 }
 
+h1 {
+	font-size: 48px;
+	text-align: center;
+}
+
+.header-row {
+	padding-top: 25px;
+}
