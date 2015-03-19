@@ -8,7 +8,11 @@
  End of Dev CSS block */
 
 /* Global CSS */
-* {
+
+/*Avoid using the universal selector * { as it tends to slow down the css loading 
+(browsers must run through every element on the page and apply the universal rule)*/
+
+body {
 	font-family: 'Verdana', sans-serif;
 	color : #666;
 }
