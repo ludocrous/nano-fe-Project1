@@ -37,27 +37,25 @@ h2 {
 
 
 .logo-image {
-	height: 375px;
-	width: 375px;
-}
-
-.image-row {
+	height: 374px;
+	width: 374px;
 	margin-top: 20px;
 }
 
-.box-row {
+.feature-box {
 	margin-top: 30px;
 	margin-left: 0px;
 	margin-right: 0px;
+	padding-left: 15px;
 	border: 1px solid #ccc;
 }
 
-.feature-header-row {
+.feature-box-header {
 	padding-left: 15px;
 	padding-top: 10px;
 }
 
-.feature-list-row {
+.feature-box-list {
 	font-size: 16px;
 	line-height: 200%;
 
@@ -68,12 +66,12 @@ h2 {
 
 /* Right Column */
 
-/* .blurb-header-row {
+/* .blurb-header {
 	h2 styling satisfies this.
 	} */
 
 .blurb-body {
-	margin-top: 20px;
+	margin-top: 30px;
 	font-size: 16px;
 	line-height: 200%;
 }
