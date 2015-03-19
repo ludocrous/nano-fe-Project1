@@ -20,6 +20,11 @@ h1 {
 	text-align: center;
 } /* Style against h1 or is it better to give it a class and style there ? */
 
+h2 {
+	color: #f07c17;
+	font-size: 24px;
+	font-weight: bold;
+}
 
 .header-row {
 	padding-top: 25px;
@@ -28,11 +33,8 @@ h1 {
 
 /* Body Elements */
 
-h2 {
-	color: #f07c17;
-	font-size: 24px;
-	font-weight: bold;
-}
+/* Left Column */ 
+
 
 .logo-image {
 	height: 375px;
@@ -50,8 +52,29 @@ h2 {
 	border: 1px solid #ccc;
 }
 
+.feature-header-row {
+	padding-left: 15px;
+	padding-top: 10px;
+}
+
+.feature-list-row {
+	font-size: 16px;
+	line-height: 200%;
+
+	padding-left: 15px;
+  	padding-top: 20px;
+  	padding-bottom: 30px;
+}
+
+/* Right Column */
+
+/* .blurb-header-row {
+	h2 styling satisfies this.
+	} */
+
 .blurb-body {
 	margin-top: 20px;
 	font-size: 16px;
 	line-height: 200%;
 }
+
