@@ -10,7 +10,7 @@
 /* Global CSS */
 * {
 	font-family: 'Verdana', sans-serif;
-	color : #666666;
+	color : #666;
 }
 
 /* Header Elements */
@@ -48,4 +48,10 @@ h2 {
 	margin-left: 0px;
 	margin-right: 0px;
 	border: 1px solid #ccc;
+}
+
+.blurb-body {
+	margin-top: 20px;
+	font-size: 16px;
+	line-height: 200%;
 }
